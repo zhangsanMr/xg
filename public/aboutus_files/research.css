@@ -1,0 +1,46 @@
+p.research_title{color: #640000;font-size: 24px;margin-top: 3%}
+.research_title_content{color: #5C5C5C;font-size: 15px;line-height: 1.5;text-align:justify;margin-top:2%;margin-bottom:3%}
+table.research_ability{width: 100%;border-collapse:collapse;margin-top: 3%}
+table.research_ability td{width: 50%;background-color: #F9F5F0;text-align: left;color: #926837;line-height: 1.5;border: 2px solid #fff;font-size: 16px;padding:2% 0 2% 70px; background-position: 30px center; background-repeat:no-repeat;}
+td.economic_icon{background:url(/repository/image/M23J-BMkTSeLLFPvzcIbEw.png) 30px center no-repeat;}
+td.investment_icon{background:url(/repository/image/F8v2juY1Sd-t8FxkVKZH9g.png) 30px center no-repeat;}
+td.commodity_icon{background:url(/repository/image/eXcPVqLzRjmnWh_1lI1Tqg.png) 30px center no-repeat;}
+td.financial_icon{background:url(/repository/image/OQWNzu1tTZe1ZYX-4WG4RA.png) 30px center no-repeat;}
+td.technology_icon{background:url(/repository/image/Z61l5XwfTreyCi5XWnJVFA.png) 30px center no-repeat;}
+td.estate_icon{background:url(/repository/image/5epMZKUQQfyTLUNoIHNbjw.png) 30px center no-repeat;}
+td.energy_icon{background:url(/repository/image/a3fxKbHrSx6T1fuOrwZ5gw.png) 30px center no-repeat;}
+td.material_icon{background:url(/repository/image/K9K6vzSQTOSDSLa8tpYdfw.png) 30px center no-repeat;}
+td.industry_icon{background:url(/repository/image/rD8qqDL2SBKq9ckL4JrBkQ.png) 30px center no-repeat;}
+td.consumer_icon{background:url(/repository/image/XqTYY-T-TlW8M4M2bduFDQ.png) 30px center no-repeat;}
+td.medical_icon{background:url(/repository/image/qEXmK4hNSJeDsBstd_Z11Q.png) 30px center no-repeat;}
+td.parts_icon{background:url(/repository/image/dn3enCZgT6W8RpxeH9EXZg.png) 30px center no-repeat;}
+td.transportation_icon{background:url(/repository/image/MG2kPcNzQgWg01PfhIuF-Q.png) 30px center no-repeat;}
+td.gaming_icon{background:url(/repository/image/8-a6k1PnQmuPJ3Q4dLLDvA.png) 30px center no-repeat;}
+td.utilities_icon{background:url(/repository/image/sgCu3lneQmKMYh7v4VM9AA.png) 30px center no-repeat;}
+td.kexuan_icon{background:url(/repository/image/XqTYY-T-TlW8M4M2bduFDQ.png) 30px center no-repeat;}
+.achievement_bg01{margin-top: 28px;}
+.achievement_bg01 img{max-width: 100%}
+.achievement_bg02 img{max-width: 100%}
+@media only screen and (max-width: 1600px) {
+	p.research_title{font-size: 20px}
+	.research_title_content{font-size: 14px;}
+}
+@media only screen and (max-width: 1366px) {
+	p.research_title{font-size: 18px}
+}
+@media screen and (min-width:768px) and (max-width:1020px) {
+	table.research_ability td{line-height: 1.5;}
+	.achievement_bg01 img{width: auto;height: auto;max-width: 100%;max-height: 100%}
+	.achievement_bg02 img{width: auto;height: auto;max-width: 100%;max-height: 100%}
+	p.research_title{color: #640000;font-size: 20px;margin-top: 30px}
+	.research_title_content{margin-bottom: 0}
+}
+@media only screen and (max-width:767px ){
+	.achievement_bg01 img{width: auto;height: auto;max-width: 100%;max-height: 100%}
+	.achievement_bg02 img{width: auto;height: auto;max-width: 100%;max-height: 100%}
+	table.research_ability td{line-height: 1.2;font-size: 14px!important;}
+	p.research_title{color: #640000;font-size: 18px;margin-top: 20px}
+	.research_title_content{margin-bottom: 0}
+	.research_abilityBox{width: 100%;overflow-x: scroll;}
+	table.research_ability{min-width: 700px;}
+}

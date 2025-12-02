@@ -1,0 +1,25 @@
+ *{padding: 0;margin: 0;}
+.mainbox{width: 100%;height: 600px;margin: 0 auto;background-color:#F5F5F5;border:1px solid #D8D8D8;z-index: 999}
+.tishi_tip_header{color:white;width: 100%;height: 60px;line-height:60px;background-color: #7D2522;padding-right: 30px;padding-left: 30px}
+.close{cursor: pointer;float: right;}
+.tishi_tip_content{padding-top: 40px;padding-left: 30px}
+p.respect_investor{color: #666;font-size: 20px;margin-bottom: 25px}
+p.content_para01{color: #666;font-size:16px;line-height: 1.5;margin-bottom: 20px}
+.chaxun_mima{color: #666;font-size:16px;margin-top: 40px;margin-bottom: 30px}
+input.password_plan{width:310px;height: 50px;border: 1px solid #666}
+p.contact_pattern{color: #666;margin-bottom: 10px}
+@media only screen and (max-width: 1024px){
+	.etfPop{width: 94%}
+	.etfPop .mainbox{width: 94%;height: auto}
+	.etfPop .tishi_tip_header{padding:0 3%;}
+	.etfPop .tishi_tip_content{padding:4% 3% 100px;}
+	.etfPop form.assembly_pop_form{top:auto;bottom:20px;}
+}
+@media only screen and (max-width: 550px){
+	.etfPop p.respect_investor{margin-bottom: 2%}
+	.etfPop input.password_plan{width: 190px}
+	.etfPop form.assembly_pop_form{right: 4%}
+}
+@media only screen and (max-width: 410px){
+	.etfPop input.password_plan{margin-top: 2%}
+}
