@@ -32,7 +32,7 @@ onMounted(() => {
 
 const goToIntroduce = () => {
   // 跳转到静态HTML页面
-  window.location.href = '/h5/aboutus.html'
+  window.location.href = '/aboutus.html'
 }
 </script>
 
