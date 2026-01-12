@@ -143,7 +143,7 @@ const handleRoute = (route: string) => {
           </div>
           <div class="text-center">
             <div>
-              <img alt="cny" src="https://zj4.cicc9658.cfd:2083/h5/img/cny.png" width="60" />
+              <img alt="cny" src="/images/withdraw-account/cny.png" width="60" />
             </div>
             <small>{{ t('user.todayProfit') }}</small>
             <div class="text-success">{{ userInfo.todayProfit.toFixed(2) }}</div>

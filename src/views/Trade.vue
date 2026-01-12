@@ -451,10 +451,10 @@ const goBack = () => {
 }
 
 .content {
-  flex-grow: 1;
   width: 100%;
-  height: 0;
+  height: 100%;
   overflow-y: auto;
+  padding-bottom: 80px;
 }
 
 /* 价格信息区域 */
@@ -558,6 +558,8 @@ const goBack = () => {
 
 /* 底部操作按钮 */
 .bottom-actions {
+  width: 100%;
+  max-width: 600px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -566,7 +568,8 @@ const goBack = () => {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   background: white;
-  position: relative;
+  bottom: 0;
+  position: fixed;
   z-index: 10;
 }
 

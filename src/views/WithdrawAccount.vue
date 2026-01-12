@@ -94,7 +94,7 @@ const goBack = () => {
       <div class="wallet-card wallet-bank">
         <div>
           <div class="card-header">
-            <img src="https://zj4.cicc9658.cfd:2083/h5/img/icon/debit-cards.png" alt="card" width="20" />
+            <img src="/images/withdraw-account/img_5.png" alt="card" width="20" />
             <span class="card-number">
               {{ accounts?.bank?.account ? formatBankAccount(accounts.bank.account) : '--' }}
             </span>
@@ -103,12 +103,7 @@ const goBack = () => {
         </div>
         <div v-if="!accounts?.bank?.bank" class="ms-auto">
           <a data-v-bed93747="" href="#/addwallet/bank" class="">
-            <img
-              data-v-bed93747=""
-              src="https://zj4.cicc9658.cfd:2083/h5/img/icon/add-payment.png"
-              alt="icon"
-              width="30"
-            />
+            <img data-v-bed93747="" src="/images/withdraw-account/add-payment.png" alt="icon" width="30" />
           </a>
         </div>
       </div>
@@ -117,19 +112,14 @@ const goBack = () => {
       <div class="wallet-card wallet-trc">
         <div>
           <div class="card-header">
-            <img src="https://zj4.cicc9658.cfd:2083/h5/img/icon/usdt.png" alt="card" width="20" />
+            <img src="/images/withdraw-account/img_6.png" alt="card" width="20" />
             <span class="card-number">{{ accounts?.usdt?.usdt ? formatBankAccount(accounts.usdt.usdt) : '--' }}</span>
           </div>
           <div class="card-type">USDT-TRC20</div>
         </div>
         <div v-if="!accounts?.usdt?.usdt" data-v-bed93747="" class="ms-auto">
           <a data-v-bed93747="" href="#/addwallet/usdt-trc20" class="">
-            <img
-              data-v-bed93747=""
-              src="https://zj4.cicc9658.cfd:2083/h5/img/icon/add-payment.png"
-              alt="icon"
-              width="30"
-            />
+            <img data-v-bed93747="" src="/images/withdraw-account/add-payment.png" alt="icon" width="30" />
           </a>
         </div>
       </div>
@@ -138,19 +128,14 @@ const goBack = () => {
       <div class="wallet-card wallet-erc">
         <div>
           <div class="card-header">
-            <img src="https://zj4.cicc9658.cfd:2083/h5/img/icon/usdt.png" alt="card" width="20" />
+            <img src="/images/withdraw-account/img_6.png" alt="card" width="20" />
             <span class="card-number">{{ accounts?.usdt2?.usdt ? formatBankAccount(accounts.usdt2.usdt) : '--' }}</span>
           </div>
           <div class="card-type">USDT-ERC20</div>
         </div>
         <div v-if="!accounts?.usdt2?.usdt" class="ms-auto">
           <a data-v-bed93747="" href="#/addwallet/usdt-erc20" class="">
-            <img
-              data-v-bed93747=""
-              src="https://zj4.cicc9658.cfd:2083/h5/img/icon/add-payment.png"
-              alt="icon"
-              width="30"
-            />
+            <img data-v-bed93747="" src="/images/withdraw-account/add-payment.png" alt="icon" width="30" />
           </a>
         </div>
       </div>

@@ -303,6 +303,7 @@ export default {
     frontImageRequired: '請上傳證件正面照片',
     backImageRequired: '請上傳證件反面照片',
     submitSuccess: '提交成功',
+    imageLoadError: '圖片載入失敗',
   },
   news: {
     title: '資訊',

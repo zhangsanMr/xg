@@ -305,6 +305,7 @@ export default {
     frontImageRequired: '증명서 앞면 사진을 업로드하세요',
     backImageRequired: '증명서 뒷면 사진을 업로드하세요',
     submitSuccess: '제출 완료',
+    imageLoadError: '이미지 로드 실패',
   },
   news: {
     title: '뉴스',

@@ -307,6 +307,7 @@ export default {
     frontImageRequired: 'Vui lòng tải lên ảnh mặt trước giấy tờ',
     backImageRequired: 'Vui lòng tải lên ảnh mặt sau giấy tờ',
     submitSuccess: 'Gửi thành công',
+    imageLoadError: 'Tải hình ảnh thất bại',
   },
   news: {
     title: 'Tin tức',

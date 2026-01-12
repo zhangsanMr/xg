@@ -310,6 +310,7 @@ export default {
     frontImageRequired: 'Please upload the front side of your document',
     backImageRequired: 'Please upload the back side of your document',
     submitSuccess: 'Submitted successfully',
+    imageLoadError: 'Image load failed',
   },
   news: {
     title: 'News',

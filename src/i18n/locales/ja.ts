@@ -305,6 +305,7 @@ export default {
     frontImageRequired: '証明書の表面写真をアップロードしてください',
     backImageRequired: '証明書の裏面写真をアップロードしてください',
     submitSuccess: '送信に成功しました',
+    imageLoadError: '画像の読み込みに失敗しました',
   },
   news: {
     title: 'ニュース',
