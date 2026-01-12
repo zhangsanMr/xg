@@ -6,7 +6,7 @@ import { VantResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/h5/',
+  base: '/',
   plugins: [
     vue(),
     Components({
