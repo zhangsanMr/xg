@@ -8,9 +8,7 @@ const t = i18n.global.t
 export const refreshAppToken = () => {}
 
 // 开发环境使用写死地址，生产环境通过环境变量配置后端接口地址
-const baseUrl = import.meta.env.DEV
-  ? 'https://llcc.viagogo.icu'
-  : ('/')
+const baseUrl = import.meta.env.DEV ? 'https://llcc.viagogo.icu' : 'https://www.zjgjft.shop/'
 
 const instance = axios.create({
   baseURL: baseUrl,
