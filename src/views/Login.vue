@@ -60,13 +60,18 @@ const goPolicy = () => {
 }
 
 // 在线人数相关
-const onlineCount = ref(2987690)
+const onlineCount = ref(0)
 let onlineCountInterval: any = null
 
 const updateOnlineCount = () => {
-  // 在基准值2987690基础上随机增减，变动幅度在-20到+20之间
-  const change = Math.floor(Math.random() * 41) - 20 // 生成-20到20之间的随机数
-  onlineCount.value = 2987690 + change
+  if (onlineCount.value === 0) {
+    // 初始化时生成随机基数：280万到320万之间
+    onlineCount.value = Math.floor(Math.random() * 400000) + 2800000
+  } else {
+    // 每次浮动在-500到+500之间
+    const change = Math.floor(Math.random() * 1001) - 500
+    onlineCount.value = Math.max(2000000, onlineCount.value + change) // 确保不低于200万
+  }
 }
 
 onMounted(() => {
